@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BUILD JAR" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be5df19a-22cb-45dd-b843-c313f00d43f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/prime_number_server_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/prime_number_server_jar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cculp/primenumberserver/Launch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cculp/primenumberserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cculp/primenumberserver/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cculp/primenumberserver/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cculp/primenumberserver/PrimeNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cculp/primenumberserver/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cculp/primenumberserver/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2I5xTJA9VlLkyBs2PXgEW9jDd5I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,9 +47,86 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Chris/Documents/ValenciaCollege/CEN3024 - Software Development 1/SD1/javafx-sdk-19/bin/vcruntime140_1.dll",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
   }
 }]]></component>
+  <component name="RunManager" selected="JAR Application.prime-number-server.jar">
+    <configuration name="BUILD JAR" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.cculp.primenumberserver.Main" />
+      <module name="prime-number-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cculp.primenumberserver.Launch" />
+      <module name="prime-number-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cculp.primenumberserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prime-number-server-1.1-SNAPSHOT-shaded.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/prime-number-server-1.1-SNAPSHOT-shaded.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prime-number-server-1.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/prime-number-server-1.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prime-number-server.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/BUILD_JAR/prime-number-server.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CCulpPrimeNumberServer" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/target/CCulpPrimeNumberServer/bin/CCulpPrimeNumberServer" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/target/CCulpPrimeNumberServer/bin" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.BUILD JAR" />
+      <item itemvalue="Application.Launch" />
+      <item itemvalue="JAR Application.prime-number-server-1.1-SNAPSHOT-shaded.jar" />
+      <item itemvalue="JAR Application.prime-number-server-1.1-SNAPSHOT.jar" />
+      <item itemvalue="JAR Application.prime-number-server.jar" />
+      <item itemvalue="Shell Script.CCulpPrimeNumberServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.prime-number-server.jar" />
+        <item itemvalue="Application.Launch" />
+        <item itemvalue="Shell Script.CCulpPrimeNumberServer" />
+        <item itemvalue="JAR Application.prime-number-server-1.1-SNAPSHOT-shaded.jar" />
+        <item itemvalue="JAR Application.prime-number-server-1.1-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,7 +135,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669485254961</updated>
-      <workItem from="1669485256122" duration="1000" />
+      <workItem from="1669485256122" duration="5114000" />
+      <workItem from="1669563242495" duration="1634000" />
+      <workItem from="1669569420289" duration="831000" />
+      <workItem from="1669599462093" duration="208000" />
+      <workItem from="1669687047596" duration="14484000" />
     </task>
     <servers />
   </component>
